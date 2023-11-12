@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\Error.cpp" />
+    <ClCompile Include="src\Game\GameStats.cpp" />
+    <ClCompile Include="src\Game\GameState.cpp" />
+    <ClCompile Include="src\Game\GameLog.cpp" />
+    <ClCompile Include="src\Game\GameConfig.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Game.h" />
+    <ClInclude Include="include\Error.h" />
+    <ClInclude Include="include\Game\GameStats.h" />
+    <ClInclude Include="include\Game\GameState.h" />
+    <ClInclude Include="include\Game\GameLog.h" />
+    <ClInclude Include="include\Game\GameConfig.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="SaveFile.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Components\SpriteRenderer.cpp" />
+    <ClCompile Include="src\Components\Entities\EnemyAbstract.cpp" />
+    <ClCompile Include="src\Components\Entities\Enemies\Grunt.cpp" />
+    <ClCompile Include="src\Scene.cpp" />
+    <ClCompile Include="src\Components\Component.cpp" />
+    <ClCompile Include="src\Components\SquareCollider.cpp" />
+    <ClCompile Include="src\GameObject.cpp" />
+    <ClCompile Include="src\Maths\Vector2.cpp" />
+    <ClCompile Include="src\Components\Platforme.cpp" />
+    <ClCompile Include="src\Components\Gravity.cpp" />
+    <ClCompile Include="src\Scenes\SceneGame1.cpp" />
+    <ClCompile Include="src\Scenes\SceneMainMenu.cpp" />
+    <ClCompile Include="src\Components\Button.cpp" />
+    <ClCompile Include="src\Components\Inputs\InputPlayer.cpp" />
+    <ClCompile Include="src\Commands\CommandsPlayer.cpp" />
+    <ClCompile Include="src\Command.cpp" />
+    <ClCompile Include="src\Components\FireBullet.cpp" />
+    <ClCompile Include="src\SceneManager.cpp" />
+    <ClCompile Include="src\Components\Entities\Player.cpp" />
+    <ClCompile Include="src\Components\GamePauseMenu.cpp" />
+    <ClCompile Include="src\AssetManager.cpp" />
+    <ClCompile Include="src\Components\Rectangle.cpp" />
+    <ClCompile Include="src\Scenes\SceneGame2.cpp" />
+    <ClCompile Include="src\Components\Entities\Enemies\Turret.cpp" />
+    <ClCompile Include="src\Components\Armes.cpp" />
+    <ClCompile Include="src\AudioManager.cpp" />
+    <ClCompile Include="src\Components\Slider.cpp" />
+    <ClCompile Include="src\Scenes\SceneGameAbstract.cpp" />
+    <ClCompile Include="src\Components\Atout.cpp" />
+    <ClCompile Include="src\Components\HealthPointBar.cpp" />
+    <ClCompile Include="src\Components\Entity.cpp" />
+    <ClCompile Include="src\Scenes\SceneSuccessMenu.cpp" />
+    <ClCompile Include="src\Scenes\SceneRankMenu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Components\SpriteRenderer.h" />
+    <ClInclude Include="include\Components\SquareCollider.h" />
+    <ClInclude Include="include\Components\Component.h" />
+    <ClInclude Include="include\Components\Entities\EnemyAbstract.h" />
+    <ClInclude Include="include\Components\Entities\Enemies\Grunt.h" />
+    <ClInclude Include="include\GameObject.h" />
+    <ClInclude Include="include\Scene.h" />
+    <ClInclude Include="include\Maths\Vector2.h" />
+    <ClInclude Include="include\Scenes\SceneGame1.h" />
+    <ClInclude Include="include\Scenes\SceneMainMenu.h" />
+    <ClInclude Include="include\Components\Inputs\InputPlayer.h" />
+    <ClInclude Include="include\Components\Button.h" />
+    <ClInclude Include="include\Components\Platforme.h" />
+    <ClInclude Include="include\Components\Gravity.h" />
+    <ClInclude Include="include\Commands\CommandsPlayer.h" />
+    <ClInclude Include="include\Command.h" />
+    <ClInclude Include="include\Components\Input.h" />
+    <ClInclude Include="include\Components\FireBullet.h" />
+    <ClInclude Include="include\SceneManager.h" />
+    <ClInclude Include="include\Components\Entities\Player.h" />
+    <ClInclude Include="include\Components\GamePauseMenu.h" />
+    <ClInclude Include="include\AssetManager.h" />
+    <ClInclude Include="include\Components\Rectangle.h" />
+    <ClInclude Include="include\Components\Entities\Enemies\Turret.h" />
+    <ClInclude Include="include\Components\Armes.h" />
+    <ClInclude Include="include\AudioManager.h" />
+    <ClInclude Include="include\Components\Slider.h" />
+    <ClInclude Include="include\Scenes\SceneGameAbstract.h" />
+    <ClInclude Include="include\Scenes\SceneGame2.h" />
+    <ClInclude Include="include\Components\Atout.h" />
+    <ClInclude Include="include\Components\HealthPointBar.h" />
+    <ClInclude Include="include\Components\Entity.h" />
+    <ClInclude Include="include\Scenes\SceneSuccessMenu.h" />
+    <ClInclude Include="include\Scenes\SceneRankMenu.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\Maths\Vector2.inl" />
+  </ItemGroup>
+</Project>
